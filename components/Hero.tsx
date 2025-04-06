@@ -2,7 +2,6 @@ import React from 'react';
 import { TextGenerateEffect } from './ui/TextGenerateEffect';
 import MagicButton from './ui/MagicButton';
 import { FaLocationArrow } from 'react-icons/fa';
-import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -56,13 +55,6 @@ const Hero = () => {
               position="right"
             />
           </a>
-          <Link href="#projects" scroll={true}>
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </Link>
         </div>
       </div>
     </div>
