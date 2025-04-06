@@ -36,7 +36,7 @@ const Footer = () => {
               className="w-10 h-10 cursor-pointer flex justify-center items-center"
             >
               <a href={link} target="_blank">
-                <Image src={icon} alt={id} width={30} height={30} />
+                <Image src={icon} alt={`${id}`} width={30} height={30} />
               </a>
             </div>
           ))}
